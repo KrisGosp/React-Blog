@@ -1,0 +1,34 @@
+{
+    "blogs": [
+        {
+        "title": "ghjk",
+        "body": "sdftgyhjkjhgrertyuio",
+        "author": "Kris",
+        "id": 1
+    },
+    {
+        "title": "Sandwich",
+        "body": "sandwich with cheese and ham",
+        "author": "Kris",
+        "id": 2
+    },
+    {
+        "title": "Why you need to learn coding", 
+        "body": "There are many reasons to learn coding...", 
+        "author": "Kris", 
+        "id": 3
+    },
+    {
+        "title": "Where should you invest", 
+        "body": "Among the best options to invest it is you...", 
+        "author": "Mris", 
+        "id": 4
+    },
+    {
+        "title": "How should you workout", 
+        "body": "Doing full-body workouts has proven...", 
+        "author": "Kris", 
+        "id": 5
+    }
+]
+}
