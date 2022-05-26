@@ -50,3 +50,50 @@
 .blog-preview a {
   text-decoration: none;
 }
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: inline-block;
+}
+.create h1 {
+  font-size: 20px;
+  color:rgb(170, 56, 56);
+  margin-bottom: 30px;
+}
+.create input, .create select, .create textarea {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid darkred;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 10px 50px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px; 
+  cursor: pointer;
+}

@@ -24,7 +24,7 @@ const useFetch = (url) => {
                     })
                     .catch(err => {
                         if (err.name === 'AbortError') {
-                            console.log('errrrrrr')
+                            console.log('request to server aborted by react')
                         } else {
                         setError(err.message)
                         setIsLoading(false)

@@ -1,9 +1,10 @@
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch, Switcher } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
+import NotFound from './NotFound';
 
 function App() {
   // const title = 'welcome to the new blog'
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path='/blogs/:id'>
               <BlogDetails />
+            </Route>
+            <Route path='*'>
+              <NotFound />
             </Route>
           </Switch>
         </div>
