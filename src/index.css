@@ -6,6 +6,7 @@
   margin: 0;
   font-family: "Libre", "Baskerville";
   color: #333;
+  background: rgb(19, 133, 172);
 }
 .navbar {
   padding: 20px;
@@ -14,9 +15,11 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 .navbar h1 {
-  color: #f1356d;
+  color:#c11a4c;
 }
 .navbar .links {
   margin-left: auto;
@@ -27,7 +30,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color:#c11a4c;
 }
 .content {
   max-width: 600px;
@@ -44,7 +47,7 @@
 }
 .blog-preview h2 {
   font-size: 20px;
-  color:#f1356d;
+  color:#c11a4c;
   margin-bottom: 8px;
 }
 .blog-preview a {
@@ -53,7 +56,7 @@
 
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color:#c11a4c;
   margin-bottom: 10px;
 }
 .blog-details div {
@@ -85,15 +88,22 @@
   background: #f1356d;
   color: #fff;
   border: 0;
-  padding: 10px 50px;
+  padding: 10px 80px;
   border-radius: 12px;
   cursor: pointer;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #c11a4c;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px; 
   cursor: pointer;
+}
+.blog-list h2 {
+  font-size: 2em;
+}
+.blog-list-title {
+  font-size: 60px;
+  padding-bottom: 20px;
 }

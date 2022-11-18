@@ -2,11 +2,11 @@ import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 const BlogDetails = () => {
     const { id } = useParams();
-    const { error, isLoading, data: blog } = useFetch('http://localhost:8888/blogs/' + id);
+    const { error, isLoading, data: blog } = useFetch('https://reminiscent-lava-pawpaw.glitch.me/blogs/' + id);
     const history = useHistory();
 
     const handleClick = (e) => {
-        fetch('http://localhost:8888/blogs/' + id, {
+        fetch('https://reminiscent-lava-pawpaw.glitch.me/blogs/' + id, {
             method: 'DELETE'
         })
         .then(() => {

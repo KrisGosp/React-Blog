@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
-    const { error, isLoading, data: blogs } = useFetch('http://localhost:8888/blogs')
+    const { error, isLoading, data: blogs } = useFetch('https://reminiscent-lava-pawpaw.glitch.me/blogs')
 
     // const [name , setName] = useState('Kris')
     //     const handleDelete = (id) => {

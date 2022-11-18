@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+// import DatePicker from 'react-datepicker';
 
 const Create = () => {
     const [ title, setTitle ] = useState('');
@@ -15,7 +16,7 @@ const Create = () => {
 
         setIsLoading(true);
 
-        fetch('http://localhost:8888/blogs', {
+        fetch('https://reminiscent-lava-pawpaw.glitch.me/blogs', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(blog)
